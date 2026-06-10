@@ -1,1 +1,131 @@
+/* Configurações gerais */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #1f7ed6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+section {
+    padding: 25px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #1f7ed6;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select,
+button {
+    padding: 10px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #1f7ed6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Acessibilidade */
+
+.painel-acessibilidade {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1000;
+}
+
+.painel-acessibilidade button {
+    cursor: pointer;
+}
+
+/* Alto contraste */
+
+.alto-contraste {
+    background-color: black;
+    color: yellow;
+}
+
+.alto-contraste header,
+.alto-contraste footer {
+    background-color: black;
+}
+
+.alto-contraste table th {
+    background-color: yellow;
+    color: black;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+}
